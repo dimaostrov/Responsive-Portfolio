@@ -1,0 +1,253 @@
+/* major */
+body,
+html {
+    height: 100%;
+    width: 100%;    
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/background-texture.jpg");
+    position: absolute;
+    
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%; 
+    margin-top: 10px; 
+    border-top: 8px #4aaaa5 solid;
+    box-sizing: border-box;
+}
+
+footer h6 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* page sections */
+nav {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px #dddddd;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+section,
+header {
+    width: 960px;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+}
+
+header div h1 {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 7px;
+    padding: 18px;
+    box-sizing: border-box;
+    display: inline;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+}
+
+.main h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4aaaa5;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    float: right;
+    display: flex;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+/* id */
+
+#view {
+    width: 960px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* classes */
+.nav-links {
+    font-size: 20px;
+    top: 30px;
+    margin: 10px;
+    float: right;
+    position: relative;
+    color: grey;
+    font-family: sans-serif;
+}
+
+li:nth-of-type(2n) .nav-links {
+    border-right: solid 2px rgba(0,0,0,0.3);
+    border-left: solid 2px rgba(0,0,0,0.3);
+    display: inline;
+    padding: 0 10px;
+}
+
+.profile {
+    height: 200px;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+
+.connect {
+    height: 80px;
+}
+
+.main,
+aside {
+    background: #ffffff;
+    border: solid #dddddd 1px;
+    position: static;
+    padding: 30px;
+}
+
+aside {
+    width: 270px;
+    box-sizing: border-box;
+    height: 180px;
+}
+
+.main {
+    width: 650px;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}   
+
+.pftitle {
+    position: relative;
+    text-align: center;
+    
+}
+
+.pftext {
+    position: absolute;
+    top: 162px;
+    width: 100%;
+    height: 50px;
+    background: #4aaaa5;
+    font-size: 24px;
+}
+
+.pftext p {
+    padding-top: 10px;
+    color: white;
+    vertical-align: middle;
+}
+
+.pftitle img {
+    width: 270px;
+    height: 200px;
+    margin: 15px 0;
+    border: solid 1px lightgray;
+
+}
+
+
+
+p {
+    color: rgba(0,0,0,0.7);
+}
+
+aside h3 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.connect {
+    height: 60px;
+    margin: 5px;
+}
+
+form label {
+    font-size: 24px;
+    color: grey;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 6px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    vertical-align: middle;
+    outline: none;
+    border: 0; 
+}
+
+@media screen and (max-width:980px){
+
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:640px){
+    
+}
