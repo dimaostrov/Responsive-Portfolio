@@ -189,7 +189,6 @@ aside {
     height: 200px;
     margin: 15px 0;
     border: solid 1px lightgray;
-
 }
 
 
@@ -242,7 +241,27 @@ button {
 
 
 @media screen and (max-width:980px){
+    section,header, #view{
+        width: 800px;
+    }
+    .main {
+        width: 460px;
+    }
+    aside {
+        width: 300px;
+    }
 
+    .pftitle img {
+        width: 400px;
+        height: 380px;
+    }
+
+    .pftext {
+        position: absolute;
+        top: 300px;
+    }
+    
+    
 }
 
 @media screen and (max-width:768px){
